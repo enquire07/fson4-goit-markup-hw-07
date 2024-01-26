@@ -917,7 +917,7 @@ fill: #F4F4FD;
         bottom: 15%;
         }
         .flag{
-       
+         width: calc((100% - 48px) / 3);       
         display: flex;
         }
 }
