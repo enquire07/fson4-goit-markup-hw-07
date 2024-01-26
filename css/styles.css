@@ -1,6 +1,8 @@
-*{
+  *{
+        padding: auto; 
+  }
 
-}
+
 
 .root{
  --white: #ffffff;
@@ -179,17 +181,17 @@ text-decoration: none;}
         display: flex;
 
 }
-.logo-style-link{
-        margin-right: 76px;
-}
+
 .list-item{
         display: flex;
-         gap: 40px;
+
 } 
 
 .list-add{
-        display: flex;
-        gap: 40px;
+       flex-direction: column;
+        gap: 5px;
+        padding-left: 0;
+
 }       
 .sec-a{
         padding-top: 188px;
@@ -271,14 +273,11 @@ text-decoration: none;}
         padding-bottom: 24px;
 }
 
-.sec-f{
-        margin-bottom: 72px;
-        padding-bottom: 120px;
 
-}
-.sec-d{
-        padding-top: 120px;
-        padding-bottom: 120px;
+
+.sec-3{
+        justify-content: center;
+        align-items: center;
 }
 .what-d{
         display: flex;
@@ -298,16 +297,22 @@ text-decoration: none;}
 .sec-c{
         margin-bottom: 72px;
 }
+
 .we-doing{
         width: calc((100%-48px)/3)
 } 
-
+.sec-d{
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+@media (max-width: 1157px){
 .team-mate{
         display: flex;
         gap: 24px;
         justify-content: center;
+        flex-wrap:wrap;
+        }
 }
-
 .team-mate img{
         display: block;
         width: 100%;
@@ -317,10 +322,7 @@ text-decoration: none;}
 .team-mate{
          width: calc((100%-72px)/4);
 }
-.sec-3{
-        justify-content: center;
-        align-items: center;
-}
+
 .team-picture{
          gap: 24px;
         border-radius: 0px 0px 4px 4px;
@@ -331,7 +333,7 @@ text-decoration: none;}
 }
 
 .sec-header{
-/*--text-align: center;--*/
+        text-align: center;
 }
 .foot_er{
         padding-top: 100px;
@@ -346,7 +348,7 @@ text-decoration: none;}
 }
 .logo-style-link{
         display: inline-block;
-        margin-bottom: 16px;
+
 }
 
 .main-port{
@@ -425,6 +427,7 @@ text-decoration: none;}
         background-color: #f4f4fd;
         border-radius: 4px;
         margin-bottom: 8px;
+        display: none;
 }
 
 .team-picture{
@@ -487,6 +490,7 @@ text-decoration: none;}
         display: flex;
          gap: 24px;
          list-style-type: none;
+         flex-wrap: wrap;
 }
 
 .flag{
@@ -893,4 +897,42 @@ fill: #F4F4FD;
         position: absolute;
         bottom: 2%;
         left: 32%;
+}
+/*----hw-07----*/
+@media (min-width: 768px){
+
+        .list-item{
+        gap: auto;
+        } 
+        .logo-style-link{
+        margin-right: 0;
+        margin-bottom: 0;
+        }
+        .draw-icon{
+        display: none;
+        } 
+        .sub-btn{
+        position: absolute;
+        right: 20%;
+        bottom: 15%;
+        }
+        .flag{
+       
+        display: flex;
+        }
+}
+        
+
+@media (max-width: 1157px){
+        .sec-f{
+        margin-bottom: 72px;
+        padding-bottom: 120px;
+        display: none;
+        }
+        .sec-3{
+        display: none;
+        }
+        
+                      
+        
 }
