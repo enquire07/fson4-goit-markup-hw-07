@@ -963,13 +963,12 @@ fill: #F4F4FD;
         .sec-cond{
                 display: flex;
         } 
-        .company{ 
-         display: inline-flex;
-         align-items: flex-start;
-         gap: 24px;
-         padding-left: 165px;
-         width: 1128px;
-        } 
+        .company {
+                display: flex;
+                gap: 24px;
+                padding-left: 165px;
+                width: 1128px;
+                }
 }
 @media (min-width: 428px) {
         .menu-container,
