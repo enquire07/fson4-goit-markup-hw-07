@@ -254,12 +254,8 @@ text-decoration: none;}
         margin: auto;
 }
 .sec-cond{
-        list-style: none;
-        gap: 24px;
-        width: auto;
-        display: grid;
-        padding-left: 0; 
-  
+        display: flex;
+        flex-wrap: wrap;
 }
 .disc{
         width:(50%);
@@ -911,7 +907,7 @@ fill: #F4F4FD;
         align-items: flex-start;
         gap: 40px;
 }
-@media (min-width: 768px){
+@media (min-width: 428px){
 
         .list-item {
         gap: auto;
@@ -939,10 +935,6 @@ fill: #F4F4FD;
         display: flex;
         }
         
-        .draw-icon{
-                display: flex;
-                display: none;
-        }  
 }
 @media (max-width: 1024px){
        .sec-f{
@@ -970,9 +962,4 @@ fill: #F4F4FD;
                 width: 1128px;
                 }
 }
-@media (min-width: 428px) {
-        .menu-container,
-        .menu-toggle{
-                display: none;
-        }       
-}
+
