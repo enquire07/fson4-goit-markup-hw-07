@@ -226,7 +226,8 @@
 <symbol xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 16 16" fill="none" id="check">
   <rect x="0.5" y="0.5" width="15" height="15" rx="1.5" stroke="#2E2F42" stroke-opacity="0.4"/>
 </symbol>
-<symbol xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22" fill="none" id="hamburger">
+
+<symbol xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 22" fill="none" id="hamburger-open">
   <g clip-path="url(#clip0_297053_2156)">
     <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
@@ -236,7 +237,8 @@
     </clipPath>
   </defs>
 </symbol>
-<symbol xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 8 8" fill="none" id="hamburger-close">
+
+<symbol xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 8" fill="none" id="hamburger-close">
   <g clip-path="url(#clip0_647977_170)">
     <path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42"/>
   </g>
